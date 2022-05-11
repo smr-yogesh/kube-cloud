@@ -48,8 +48,8 @@ spec:
             periodSeconds: 30
             successThreshold: 1
             timeoutSeconds: 10
-      volumes:
-        - name: api-volume
+      #volumes:
+        #- name: api-volume
           #emptyDir: {}
-          persistentVolumeClaim:
-            claimName: host-pvc
+          #persistentVolumeClaim:
+           # claimName: host-pvc
