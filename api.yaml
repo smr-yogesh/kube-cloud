@@ -36,9 +36,9 @@ spec:
                 configMapKeyRef:
                   name: data-store-env
                   key: folder
-          volumeMounts:
-            - mountPath: /home/app/data
-              name: api-volume
+          #volumeMounts:
+           # - mountPath: /home/app/data
+            #  name: api-volume
           livenessProbe:
             httpGet:
               path: /
